@@ -1,5 +1,7 @@
 # Simple REST API with Rust & Rocket Framework
 <br>
+<p>This GitHub repository focuses on developing a functional RESTful API using Rust and the Rocket framework. The project demonstrates CRUD operations for creating, reading, updating, and deleting data via API endpoints. However, it has been acknowledged that the codebase requires improvements in terms of consistency, including naming conventions, code structure, formatting, and error handling.</p>
+<br>
 <h3>Setup</h3>
 <p>1. <a href="https://www.rust-lang.org/tools/install" target="_blank">Rust</a> (Version: rustc 1.69.0-nightly)</p>
 <p>1. Rocket Framework (Version: 0.5.0-rc.3)</a></p>
