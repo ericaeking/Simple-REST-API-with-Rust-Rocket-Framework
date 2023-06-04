@@ -1,11 +1,12 @@
 # Simple REST API with Rust & Rocket Framework
 <br>
-<h3>SETUP</h3>
-<p>1. <a href="https://www.rust-lang.org/tools/install" target="_blank">Rust</a></p>
+<h3>Setup</h3>
+<p>1. <a href="https://www.rust-lang.org/tools/install" target="_blank">Rust</a> (Version: rustc 1.69.0-nightly)</p>
+<p>1. Rocket Framework (Version: 0.5.0-rc.3)</a></p>
 <p>3. <a href="https://www.apachefriends.org/download.html" target="_blank">XAMPP</a> (MySQL Server)</p>
 <p>3. <a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a></p>
 <br>
-<h3>HOW TO RUN</h3>
+<h3>How to Run</h3>
 <p>1. Download folder</p>
 <p>2. Import database to MySQL</p>
 <p>3. Open folder from VS Code</p>
