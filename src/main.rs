@@ -18,8 +18,7 @@ use std::fs;
 struct Product(sqlx::MySqlPool); 
 
 // <------------------------ GET PRODUCT BY ID ------------------------------>
-// add no product id found
-// no need to print all data
+
 #[get("/<id>")]
 async fn read(mut db: Connection<Product>, id: i64) -> Option<String> {
     match sqlx::query("SELECT PRODUCT_CODE, NAME, PRICE FROM product WHERE PRODUCT_ID = ?")
