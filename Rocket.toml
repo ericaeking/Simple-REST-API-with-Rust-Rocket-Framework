@@ -1,0 +1,3 @@
+[default.databases.test]
+url = "mysql://root@localhost:3306/test"
+
