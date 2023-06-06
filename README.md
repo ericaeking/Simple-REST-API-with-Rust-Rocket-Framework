@@ -1,21 +1,12 @@
 # Simple REST API with Rust & Rocket Framework
 <br>
-<p>This GitHub repository focuses on developing a functional RESTful API using Rust and the Rocket framework. The project demonstrates CRUD operations for creating, reading, updating, and deleting data via API endpoints. However, it has been acknowledged that the codebase requires improvements in terms of consistency, including naming conventions, code structure, formatting, and error handling.</p>
+<p>This GitHub repository focuses on developing a simple RESTful API using Rust and the Rocket framework. It demonstrates CRUD operations through API endpoints for creating, reading, updating, and deleting data. Specific code files have been uploaded for sharing code references, enabling others to understand implementations. The codebase is being improved for consistency in naming conventions, code structure, formatting, and error handling.</p>
 <br>
 <h3>Setup</h3>
 <p>1. <a href="https://www.rust-lang.org/tools/install" target="_blank">Rust</a> (Version: rustc 1.69.0-nightly)</p>
 <p>1. Rocket Framework (Version: 0.5.0-rc.3)</a></p>
 <p>3. <a href="https://www.apachefriends.org/download.html" target="_blank">XAMPP</a> (MySQL Server)</p>
 <p>3. <a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a></p>
-<br>
-<h3>How to Run</h3>
-<p>1. Download folder</p>
-<p>2. Import database to MySQL</p>
-<p>3. Open folder from VS Code</p>
-<p>4. Setup database pool connection in Rocket.toml (If needed)</p>
-<p>5. Open new terminal (Pointing to folder directory) and start Rocket server with this command: <code>cargo run</code></p>
-<p>6. By default, Rocket server runs on Port 8000</code></p>
-<p>7. Test API using <code>cURL</code> or tools like Thunder Client/Postman</p>
 <br>
 <h3>API Endpoints (localhost)</h3>
 <p>Fetch all data: <code>http://127.0.0.1/all</code></p>
